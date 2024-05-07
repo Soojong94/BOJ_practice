@@ -9,3 +9,16 @@
 #    Solved: 2024/05/06 10:59:11 by sujjong456    ###          ###   ##.kr     #
 #                                                                              #
 #  **************************************************************************  #
+
+
+T = int(input())  # 약수의 개수(1과 N 제외)
+nums = list(map(int, input().split()))  # 진짜 약수 리스트
+
+nums.sort()
+
+if T % 2 == 0:
+    print(nums[0] * nums[-1])
+# elif T == 1:
+#     print(nums[0] ** 2)
+else:
+    print(nums[len(nums) // 2] ** 2)
