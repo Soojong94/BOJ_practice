@@ -16,7 +16,21 @@
 
 # 단순하게 value에 접근하는 변수를 3개 만들어서 각각 어떤 식으로 진행되는지 적어보기
 
-dict_circle = {"1": [2], "2": [], "3": []}
-K = 0
+# n-1 개의 원판을 2번 장대로 옮기고 그걸다시 3번으로 옮기면 됨
+# 이동횟수는 2**N-1
 
-print(dict_circle.keys())
+N = int(input())
+
+
+def move(N, start, end, assist):
+    if N == 1:
+        print(start, end)
+        return
+    else:
+        move(N - 1, start, assist, end)
+        print(start, end)
+        move(N - 1, assist, end, start)
+
+
+print(2**N - 1)
+move(N, 1, 3, 2)
