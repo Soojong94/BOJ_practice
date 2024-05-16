@@ -10,11 +10,7 @@
 #                                                                              #
 #  **************************************************************************  #
 
-<<<<<<< HEAD
 N = int(input())
-=======
-N = int(input()) = int(input())
->>>>>>> b8c4f224c398a0c5955439acb8d2cb4383852471
 num0 = 0
 num1 = 1
 answer_num = 1
@@ -32,8 +28,6 @@ elif N >= 2:
         num1 = answer_num
 
     print(answer_num)
-<<<<<<< HEAD
-=======
 num0 = 0
 num1 = 1
 answer_num = 1
@@ -51,4 +45,3 @@ elif N >= 2:
         num1 = answer_num
 
     print(answer_num)
->>>>>>> b8c4f224c398a0c5955439acb8d2cb4383852471
