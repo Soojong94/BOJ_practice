@@ -8,3 +8,6 @@
 
 5/15 문제풀이 완료
 ![image](https://github.com/Soojong94/BOJ_practice/assets/155703090/6032c6e6-f6f2-46a3-9f93-f4fbe169ff57)
+
+5/19 문제풀이 완료
+![image](https://github.com/Soojong94/BOJ_practice/assets/155703090/8826d40c-6b65-4e2c-b1a6-8074572dbcaf)
