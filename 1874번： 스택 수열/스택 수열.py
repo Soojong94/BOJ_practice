@@ -13,34 +13,26 @@ from collections import deque
 
 n = int(input())
 
-numbers = deque()
-order = deque()
+numbers = deque(range(1, n + 1))
+order = deque(int(input()) for _ in range(n))
+
 que = deque()
-
-
-for i in range(1, n + 1):
-    numbers.append(i)
-
-
-for i in range(n):
-    order.append(int(input()))
-
-
 plus_minus = []
 
 # 오름차순으로 큐에 넣고, order에 주어진 순서대로 수열을 만들 수 있는지 확인해야 함
 
-print(numbers, order)
 
-while True:
-    for i in order:
-        if que:
-            if que[-1] == i:
-                que.pop()
-                plus_minus.append("-")
-            else:
-                que.append(numbers.popleft())
-                plus_minus.append("+")
-        else:
+for i in order:
+    while True:
+        if que and que[-1] == i:
+            que.pop()
+            plus_minus.append("-")
+            break
+        elif numbers:
             que.append(numbers.popleft())
             plus_minus.append("+")
+        else:
+            print("NO")
+            exit()
+
+print("\n".join(plus_minus))
