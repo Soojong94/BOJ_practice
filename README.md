@@ -19,4 +19,10 @@
 ![image](https://github.com/Soojong94/BOJ_practice/assets/155703090/3c690c87-2f29-454d-8a60-71cc6aa1da69)
 
 6/02 문제풀이 완료
-![Uploading image.png…]()
+![image](https://github.com/Soojong94/BOJ_practice/assets/155703090/8c35a189-227c-46b0-a084-519872b388fd)
+
+06/06 문제풀이 완료
+
+![image](https://github.com/Soojong94/BOJ_practice/assets/155703090/05e5bfec-5ff8-4ca3-924f-88e5545cc40d)
+
+
