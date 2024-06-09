@@ -26,3 +26,6 @@
 
 06/08 문제풀이 완료
 ![image](https://github.com/Soojong94/BOJ_practice/assets/155703090/cdce22dc-261f-4949-b094-69656daebbe0)
+
+06/09 문제풀이 완료
+![image](https://github.com/Soojong94/BOJ_practice/assets/155703090/15edb528-0156-4ced-98f1-489fcb31329e)
