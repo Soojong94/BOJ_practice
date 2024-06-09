@@ -22,7 +22,7 @@
 ![image](https://github.com/Soojong94/BOJ_practice/assets/155703090/8c35a189-227c-46b0-a084-519872b388fd)
 
 06/06 문제풀이 완료
-
 ![image](https://github.com/Soojong94/BOJ_practice/assets/155703090/05e5bfec-5ff8-4ca3-924f-88e5545cc40d)
 
-
+06/08 문제풀이 완료
+![image](https://github.com/Soojong94/BOJ_practice/assets/155703090/cdce22dc-261f-4949-b094-69656daebbe0)
