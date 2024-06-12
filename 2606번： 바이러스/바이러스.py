@@ -9,21 +9,36 @@
 #    Solved: 2024/06/12 18:13:21 by sujjong456    ###          ###   ##.kr     #
 #                                                                              #
 #  **************************************************************************  #
+from collections import deque
 
-T = int(input())
-link = [[] for _ in range(T)]
 
-for i in range(T):
-    link[i] = list(map(int, input().split()))
+N = int(input())  
+T = int(input())  
 
-number = []
 
-for i in range(T):
-    if 1 in link[i]:
-        number.append(link[i][0])
-        number.append(link[i][1])
+lst = [[] for _ in range(N+1)]
+for _ in range(T):
+    a, b = map(int, input().split())
+    lst[a].append(b)
+    lst[b].append(a)
 
-for j in number:
-    if j in link[i]:
-        number.append(link[i][0])
-        number.append(link[i][1])
+
+def bfs(start):
+    visited = [False] * (N + 1)  
+    queue = deque([start]) 
+    visited[start] = True 
+    count = 0 
+    
+    while queue: 
+        node = queue.popleft() 
+        for neighbor in lst[node]:  
+            if not visited[neighbor]:  
+                visited[neighbor] = True  
+                queue.append(neighbor)  
+                count += 1  
+    return count  
+
+
+result = bfs(1)
+print(result)
+
